@@ -198,7 +198,11 @@
           "n8n-monorepo": "libphonenumber-js (unused override)"
         },
         "ledger": {
-          "addedDate": "2026-03-01T15:17:14Z"
+          "addedDate": "2026-03-01T15:17:14Z",
+          "source": "manual",
+          "reason": "Root pnpm override replaces libphonenumber-js with empty-npm-package. The appendix keeps that policy visible instead of leaving it as an unexplained manifest entry.",
+          "url": "https://github.com/yowainwright/n8n/blob/ca56b6b90ae1db4d30850dfd33003c54fb1057d1/package.json#L96-L97",
+          "description": "Lockfile evidence: https://github.com/yowainwright/n8n/blob/ca56b6b90ae1db4d30850dfd33003c54fb1057d1/pnpm-lock.yaml#L389-L390"
         }
       },
       "@browserbasehq/stagehand@npm:empty-npm-package@1.0.0": {
@@ -398,7 +402,11 @@
           "n8n-monorepo": "form-data (unused override)"
         },
         "ledger": {
-          "addedDate": "2026-03-01T15:17:14Z"
+          "addedDate": "2026-03-01T15:17:14Z",
+          "source": "manual",
+          "reason": "Root pnpm override pins form-data to 4.0.4. Pastoralist gives reviewers a durable place to connect the override, the lockfile resolution, and later cleanup decisions.",
+          "url": "https://github.com/yowainwright/n8n/blob/ca56b6b90ae1db4d30850dfd33003c54fb1057d1/package.json#L122",
+          "description": "Lockfile evidence: https://github.com/yowainwright/n8n/blob/ca56b6b90ae1db4d30850dfd33003c54fb1057d1/pnpm-lock.yaml#L415 and https://github.com/yowainwright/n8n/blob/ca56b6b90ae1db4d30850dfd33003c54fb1057d1/pnpm-lock.yaml#L35842-L35843"
         }
       },
       "tmp@0.2.4": {
@@ -823,6 +831,19 @@
         },
         "ledger": {
           "addedDate": "2026-03-01T15:17:14Z"
+        }
+      },
+      "pdfjs-dist@5.3.31": {
+        "dependents": {
+          "n8n-monorepo": "pdfjs-dist@5.3.31 (patched dependency)"
+        },
+        "patches": ["patches/pdfjs-dist@5.3.31.patch"],
+        "ledger": {
+          "addedDate": "2026-05-23T00:00:00Z",
+          "source": "manual",
+          "reason": "pnpm patchedDependencies points pdfjs-dist@5.3.31 at a local patch file. The appendix can connect the manifest entry, patch file, and lockfile patch hash in one reviewable record.",
+          "url": "https://github.com/yowainwright/n8n/blob/ca56b6b90ae1db4d30850dfd33003c54fb1057d1/package.json#L177-L179",
+          "description": "Lockfile patch registration: https://github.com/yowainwright/n8n/blob/ca56b6b90ae1db4d30850dfd33003c54fb1057d1/pnpm-lock.yaml#L495-L497 and resolved patch hash: https://github.com/yowainwright/n8n/blob/ca56b6b90ae1db4d30850dfd33003c54fb1057d1/pnpm-lock.yaml#L40568-L40570"
         }
       }
     }
