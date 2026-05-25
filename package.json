@@ -190,5 +190,754 @@
       "vuedraggable@4.1.0": "patches/vuedraggable@4.1.0.patch",
       "assert@2.1.0": "patches/assert@2.1.0.patch"
     }
+  },
+  "pastoralist": {
+    "appendix": {
+      "libphonenumber-js@npm:empty-npm-package@1.0.0": {
+        "dependents": {
+          "n8n-monorepo": "libphonenumber-js (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@browserbasehq/stagehand@npm:empty-npm-package@1.0.0": {
+        "dependents": {
+          "n8n-monorepo": "@browserbasehq/stagehand (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "sharp@npm:empty-npm-package@1.0.0": {
+        "dependents": {
+          "n8n-monorepo": "sharp (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "ast-types@0.16.1": {
+        "dependents": {
+          "n8n-monorepo": "ast-types (unused override)",
+          "@n8n/tournament": "ast-types@^0.16.1",
+          "n8n-workflow": "ast-types@0.16.1"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@azure/identity@4.13.0": {
+        "dependents": {
+          "n8n-monorepo": "@azure/identity (unused override)",
+          "@n8n/n8n-nodes-langchain": "@azure/identity@catalog:",
+          "n8n": "@azure/identity@catalog:"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@lezer/common@^1.2.0": {
+        "dependents": {
+          "n8n-monorepo": "@lezer/common (unused override)",
+          "@n8n/codemirror-lang-html": "@lezer/common@catalog:",
+          "n8n-editor-ui": "@lezer/common@catalog:"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@mistralai/mistralai@^1.10.0": {
+        "dependents": {
+          "n8n-monorepo": "@mistralai/mistralai (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@n8n/typeorm>@sentry/node@catalog:sentry": {
+        "dependents": {
+          "n8n-monorepo": "@n8n/typeorm>@sentry/node (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@types/node@^20.17.50": {
+        "dependents": {
+          "n8n-monorepo": "@types/node@*",
+          "@n8n/cli": "@types/node@catalog:",
+          "@n8n/computer-use": "@types/node@catalog:",
+          "@n8n/eslint-config": "@types/node@catalog:",
+          "@n8n/eslint-plugin-community-nodes": "@types/node@catalog:",
+          "@n8n/local-gateway": "@types/node@catalog:",
+          "@n8n/tournament": "@types/node@^18.13.0",
+          "@n8n/storybook": "@types/node@catalog:",
+          "@n8n/playwright-janitor": "@types/node@catalog:"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "chokidar@4.0.3": {
+        "dependents": {
+          "n8n-monorepo": "chokidar (unused override)",
+          "n8n-nodes-base": "chokidar@catalog:"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "esbuild@^0.25.0": {
+        "dependents": {
+          "n8n-monorepo": "esbuild (unused override)",
+          "n8n": "esbuild@^0.25.0"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "multer@^2.1.1": {
+        "dependents": {
+          "n8n-monorepo": "multer (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "prebuild-install@7.1.3": {
+        "dependents": {
+          "n8n-monorepo": "prebuild-install (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "pug@^3.0.3": {
+        "dependents": {
+          "n8n-monorepo": "pug (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "semver@^7.5.4": {
+        "dependents": {
+          "n8n-monorepo": "semver (unused override)",
+          "@n8n/scan-community-package": "semver@^7.5.4",
+          "n8n": "semver@7.5.4",
+          "n8n-editor-ui": "semver@^7.5.4",
+          "n8n-nodes-base": "semver@7.5.4"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "tar-fs@2.1.4": {
+        "dependents": {
+          "n8n-monorepo": "tar-fs (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "tslib@^2.6.2": {
+        "dependents": {
+          "n8n-monorepo": "tslib (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "tsconfig-paths@^4.2.0": {
+        "dependents": {
+          "n8n-monorepo": "tsconfig-paths (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "typescript@catalog:": {
+        "dependents": {
+          "n8n-monorepo": "typescript@*",
+          "@n8n/eslint-config": "typescript@catalog:",
+          "@n8n/eslint-plugin-community-nodes": "typescript@catalog:",
+          "@n8n/expression-runtime": "typescript@catalog:",
+          "@n8n/node-cli": "typescript@catalog:",
+          "@n8n/stylelint-config": "typescript@catalog:",
+          "@n8n/tournament": "typescript@^5.0.0",
+          "@n8n/utils": "typescript@catalog:",
+          "@n8n/composables": "typescript@catalog:",
+          "@n8n/i18n": "typescript@catalog:",
+          "@n8n/rest-api-client": "typescript@catalog:",
+          "@n8n/stores": "typescript@catalog:",
+          "@n8n/storybook": "typescript@catalog:",
+          "n8n-editor-ui": "typescript@catalog:",
+          "@n8n/code-health": "typescript@catalog:",
+          "@n8n/playwright-janitor": "typescript@catalog:",
+          "@n8n/rules-engine": "typescript@catalog:"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "vue-tsc@^2.2.8": {
+        "dependents": {
+          "n8n-monorepo": "vue-tsc (unused override)",
+          "@n8n/extension-sdk": "vue-tsc@catalog:frontend",
+          "@n8n/n8n-extension-insights": "vue-tsc@catalog:frontend",
+          "@n8n/chat": "vue-tsc@catalog:frontend",
+          "@n8n/composables": "vue-tsc@catalog:frontend",
+          "@n8n/design-system": "vue-tsc@catalog:frontend",
+          "@n8n/i18n": "vue-tsc@catalog:frontend",
+          "@n8n/stores": "vue-tsc@catalog:frontend",
+          "@n8n/storybook": "vue-tsc@catalog:frontend",
+          "n8n-editor-ui": "vue-tsc@catalog:frontend"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "gaxios@>=7.1.1": {
+        "dependents": {
+          "n8n-monorepo": "gaxios (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "google-gax@^4.3.7": {
+        "dependents": {
+          "n8n-monorepo": "google-gax (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "ws@>=8.17.1": {
+        "dependents": {
+          "n8n-monorepo": "ws (unused override)",
+          "@n8n/mcp-browser": "ws@8.17.1",
+          "@n8n/task-runner": "ws@^8.18.0",
+          "n8n": "ws@8.17.1"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "date-fns@2.30.0": {
+        "dependents": {
+          "n8n-monorepo": "date-fns (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "date-fns-tz@2.0.0": {
+        "dependents": {
+          "n8n-monorepo": "date-fns-tz (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "form-data@4.0.4": {
+        "dependents": {
+          "n8n-monorepo": "form-data (unused override)",
+          "@n8n/n8n-nodes-langchain": "form-data@catalog:",
+          "n8n-core": "form-data@catalog:",
+          "n8n-workflow": "form-data@catalog:"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "tmp@0.2.4": {
+        "dependents": {
+          "n8n-monorepo": "tmp (unused override)",
+          "@n8n/scan-community-package": "tmp@0.2.4"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "nodemailer@7.0.11": {
+        "dependents": {
+          "n8n-monorepo": "nodemailer (unused override)",
+          "n8n": "nodemailer@catalog:",
+          "n8n-nodes-base": "nodemailer@catalog:"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "validator@13.15.26": {
+        "dependents": {
+          "n8n-monorepo": "validator (unused override)",
+          "n8n": "validator@13.15.22"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "zod@3.25.67": {
+        "dependents": {
+          "n8n-monorepo": "zod (unused override)",
+          "@n8n/agents": "zod@catalog:",
+          "@n8n/ai-utilities": "zod@catalog:",
+          "@n8n/ai-workflow-builder": "zod@catalog:",
+          "@n8n/api-types": "zod@catalog:",
+          "@n8n/backend-common": "zod@catalog:",
+          "@n8n/computer-use": "zod@catalog:",
+          "@n8n/config": "zod@catalog:",
+          "@n8n/db": "zod@catalog:",
+          "@n8n/decorators": "zod@catalog:",
+          "@n8n/expression-runtime": "zod@catalog:",
+          "@n8n/extension-sdk": "zod@catalog:",
+          "@n8n/instance-ai": "zod@catalog:",
+          "@n8n/json-schema-to-zod": "zod@^3.25.76",
+          "@n8n/mcp-browser": "zod@catalog:",
+          "@n8n/n8n-nodes-langchain": "zod@catalog:",
+          "@n8n/permissions": "zod@catalog:",
+          "@n8n/syslog-client": "zod@catalog:",
+          "@n8n/workflow-sdk": "zod@catalog:",
+          "n8n": "zod@catalog:",
+          "n8n-core": "zod@catalog:",
+          "n8n-playwright": "zod@catalog:",
+          "n8n-workflow": "zod@catalog:"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "js-yaml@4.1.1": {
+        "dependents": {
+          "n8n-monorepo": "js-yaml (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "node-forge@1.4.0": {
+        "dependents": {
+          "n8n-monorepo": "node-forge (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "body-parser@2.2.1": {
+        "dependents": {
+          "n8n-monorepo": "body-parser (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "glob@10@10.5.0": {
+        "dependents": {
+          "n8n-monorepo": "glob@10 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "glob@7@7.2.3": {
+        "dependents": {
+          "n8n-monorepo": "glob@7 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "jws@3@3.2.2": {
+        "dependents": {
+          "n8n-monorepo": "jws@3 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "jws@4@4.0.1": {
+        "dependents": {
+          "n8n-monorepo": "jws@4 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "qs@6@6.14.2": {
+        "dependents": {
+          "n8n-monorepo": "qs@6 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@smithy/config-resolver@>=4.4.0": {
+        "dependents": {
+          "n8n-monorepo": "@smithy/config-resolver (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@rudderstack/rudder-sdk-node@<=3.0.0@3.0.0": {
+        "dependents": {
+          "n8n-monorepo": "@rudderstack/rudder-sdk-node@<=3.0.0 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "diff@8.0.3": {
+        "dependents": {
+          "n8n-monorepo": "diff (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "undici@5@^6.24.0": {
+        "dependents": {
+          "n8n-monorepo": "undici@5 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "undici@6@^6.24.0": {
+        "dependents": {
+          "n8n-monorepo": "undici@6 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "undici@7@^7.24.0": {
+        "dependents": {
+          "n8n-monorepo": "undici@7 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "tar@^7.5.11": {
+        "dependents": {
+          "n8n-monorepo": "tar (unused override)",
+          "n8n": "tar@^7.5.11"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "ajv@6@6.14.0": {
+        "dependents": {
+          "n8n-monorepo": "ajv@6 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "ajv@7@8.18.0": {
+        "dependents": {
+          "n8n-monorepo": "ajv@7 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "ajv@8@8.18.0": {
+        "dependents": {
+          "n8n-monorepo": "ajv@8 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "bn.js@4@5.2.3": {
+        "dependents": {
+          "n8n-monorepo": "bn.js@4 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "bn.js@5@5.2.3": {
+        "dependents": {
+          "n8n-monorepo": "bn.js@5 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "lodash@4.18.1": {
+        "dependents": {
+          "n8n-monorepo": "lodash (unused override)",
+          "@n8n/ai-workflow-builder": "lodash@catalog:",
+          "@n8n/db": "lodash@catalog:",
+          "@n8n/decorators": "lodash@catalog:",
+          "@n8n/expression-runtime": "lodash@catalog:",
+          "@n8n/n8n-nodes-langchain": "lodash@catalog:",
+          "@n8n/task-runner": "lodash@catalog:",
+          "n8n": "lodash@catalog:",
+          "n8n-core": "lodash@catalog:",
+          "@n8n/design-system": "lodash@catalog:",
+          "n8n-editor-ui": "lodash@catalog:",
+          "n8n-nodes-base": "lodash@catalog:",
+          "n8n-workflow": "lodash@catalog:"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "lodash-es@4.18.1": {
+        "dependents": {
+          "n8n-monorepo": "lodash-es (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "minimatch@<=5.1.8@5.1.8": {
+        "dependents": {
+          "n8n-monorepo": "minimatch@<=5.1.8 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "minimatch@10@10.2.3": {
+        "dependents": {
+          "n8n-monorepo": "minimatch@10 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@hono/node-server@1.19.13": {
+        "dependents": {
+          "n8n-monorepo": "@hono/node-server (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "follow-redirects@1.16.0": {
+        "dependents": {
+          "n8n-monorepo": "follow-redirects (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "express-rate-limit@8.2.2": {
+        "dependents": {
+          "n8n-monorepo": "express-rate-limit (unused override)",
+          "n8n": "express-rate-limit@7.5.0"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "underscore@1.13.8": {
+        "dependents": {
+          "n8n-monorepo": "underscore (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "flatted@3.4.2": {
+        "dependents": {
+          "n8n-monorepo": "flatted (unused override)",
+          "@n8n/backend-common": "flatted@catalog:",
+          "@n8n/db": "flatted@catalog:",
+          "@n8n/instance-ai": "flatted@catalog:",
+          "n8n": "flatted@catalog:",
+          "@n8n/rest-api-client": "flatted@catalog:",
+          "n8n-editor-ui": "flatted@catalog:",
+          "n8n-playwright": "flatted@catalog:"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "handlebars@4.7.9": {
+        "dependents": {
+          "n8n-monorepo": "handlebars (unused override)",
+          "@n8n/node-cli": "handlebars@4.7.9",
+          "n8n": "handlebars@4.7.9"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "path-to-regexp@8.4.0": {
+        "dependents": {
+          "n8n-monorepo": "path-to-regexp (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "path-to-regexp@<0.1.13@0.1.13": {
+        "dependents": {
+          "n8n-monorepo": "path-to-regexp@<0.1.13 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "picomatch@2@2.3.2": {
+        "dependents": {
+          "n8n-monorepo": "picomatch@2 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "picomatch@4@4.0.4": {
+        "dependents": {
+          "n8n-monorepo": "picomatch@4 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "avsc@5.7.9": {
+        "dependents": {
+          "n8n-monorepo": "avsc (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "brace-expansion@<=2.1.0@2.1.0": {
+        "dependents": {
+          "n8n-monorepo": "brace-expansion@<=2.1.0 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@xmldom/xmldom@0.8.13": {
+        "dependents": {
+          "n8n-monorepo": "@xmldom/xmldom (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "yaml@<=2.8.3@2.8.3": {
+        "dependents": {
+          "n8n-monorepo": "yaml@<=2.8.3 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "axios@1.16.1": {
+        "dependents": {
+          "n8n-monorepo": "axios (unused override)",
+          "@n8n/ai-utilities": "axios@catalog:",
+          "@n8n/n8n-benchmark": "axios@catalog:",
+          "@n8n/client-oauth2": "axios@catalog:",
+          "@n8n/scan-community-package": "axios@catalog:",
+          "n8n": "axios@catalog:",
+          "n8n-core": "axios@catalog:",
+          "@n8n/rest-api-client": "axios@catalog:",
+          "n8n-editor-ui": "axios@catalog:"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "fast-xml-parser@5.7.2": {
+        "dependents": {
+          "n8n-monorepo": "fast-xml-parser (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "hono@4.12.18": {
+        "dependents": {
+          "n8n-monorepo": "hono (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@anthropic-ai/sdk@<=0.91.1@0.91.1": {
+        "dependents": {
+          "n8n-monorepo": "@anthropic-ai/sdk@<=0.91.1 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "uuid@<=13.0.1@13.0.1": {
+        "dependents": {
+          "n8n-monorepo": "uuid@<=13.0.1 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "fast-uri@3.1.2": {
+        "dependents": {
+          "n8n-monorepo": "fast-uri (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "cjs-module-lexer@<2.2.0@2.2.0": {
+        "dependents": {
+          "n8n-monorepo": "cjs-module-lexer@<2.2.0 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "protobufjs@7.5.6": {
+        "dependents": {
+          "n8n-monorepo": "protobufjs (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@opentelemetry/exporter-prometheus@<=0.217.0@0.217.0": {
+        "dependents": {
+          "n8n-monorepo": "@opentelemetry/exporter-prometheus@<=0.217.0 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "@opentelemetry/sdk-node@<=0.217.0@0.217.0": {
+        "dependents": {
+          "n8n-monorepo": "@opentelemetry/sdk-node@<=0.217.0 (unused override)"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      },
+      "langsmith@0.6.0": {
+        "dependents": {
+          "n8n-monorepo": "langsmith (unused override)",
+          "@n8n/agents": "langsmith@catalog:",
+          "@n8n/ai-workflow-builder": "langsmith@^0.4.6",
+          "@n8n/instance-ai": "langsmith@catalog:",
+          "n8n": "langsmith@catalog:",
+          "n8n-playwright": "langsmith@catalog:"
+        },
+        "ledger": {
+          "addedDate": "2026-05-24T20:12:46+01:00"
+        }
+      }
+    }
   }
 }
